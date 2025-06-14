@@ -1,7 +1,5 @@
 <template>
     <BaseNavbar/>
-    
-        -----
     <main>
         <RouterView />
     </main>

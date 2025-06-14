@@ -5,16 +5,18 @@
         </div>
 
         <nav>
-            <div class="links-external">
-                <a href="https://www.linkedin.com/in/gmartinr/">Linkedin</a>
-                <a href="https://github.com/geminway92">Github</a>
-            </div>
-            
-            
-            <div class="links-views">
-                <RouterLink to="/works">Works</RouterLink>
-            </div>
-            
+            <RouterLink to="/works">
+                Works
+            </RouterLink>
+
+            <a target="_blank" href="https://www.linkedin.com/in/gmartinr/">
+                <i class="fa-brands fa-linkedin-in"></i>
+                Linkedin
+            </a>
+            <a target="_blank" href="https://github.com/geminway92">
+                <i class="fa-brands fa-github"></i>
+                Github
+            </a>
         </nav>
     </div>
 
@@ -36,6 +38,7 @@
         width: 100%;
         align-items: center;
         gap: 1rem;
+        padding: 1rem;
     }
 
     .logo {
@@ -50,21 +53,21 @@
 
     nav {
         display: flex;
+        justify-content: center;
         width: 100%;
-        justify-content: space-between;
-        gap: 0.5rem;
-        padding: 0 1rem;
+        gap: 1.5rem;
     }
 
-    .links-external {
-        display: flex;
-        gap: 2rem;
-    }
 
-    .links-external a {
-        padding: 0.5rem 1rem;
+    nav a {
+        padding: 0.5rem;
         text-decoration: none;
         color: var(--text-color);
+    }
+
+    .router-link-active {
+        color: var(--paleta-3) !important;
+        border-bottom: 1px dashed var(--paleta-3);
     }
 
     

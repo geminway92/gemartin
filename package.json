@@ -8,7 +8,6 @@
     "i18n:report": "vue-cli-service i18n:report --src \"./src/**/*.?(js|vue)\" --locales \"./src/locales/**/*.json\""
   },
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.15.4",
     "core-js": "^3.6.5",
     "install": "^0.13.0",
     "vue": "^3.0.0",
