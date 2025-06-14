@@ -1,72 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
-@import '../../node_modules/@fortawesome/fontawesome-free/css/all.css';
+
+ @import '../../node_modules/@fortawesome/fontawesome-free/css/all.css';
 
 :root{
-    --primary-color: #3182ed;
-    --text-color: #4f4f4f;
-    --headings-color: #919191;
-    --bg-color: #e6e6e6;
-    --bg-card-color: #fafafa;
-    --transition: color 0.1s, background-color 0.2s ease-in-out;
-    --box-shadow: 5px 0 15px rgb(0 0 0 / 0.2);
-    --border-radius: 0.4em;
+    --primary-color: #28293d;
+    --secondary-color: #3a67c8;
+    --text-color: #f8fafb;
+    
+
+    --paleta-1: #344d89;
+    --paleta-2: #ebb894;
+    --paleta-3: #e79d2f;
 }
 
-html, body{
-    width: 100%;
-}
 body {
-    margin: 0;
-    font-family: 'Open Sans', sans-serif;
-}
-
-h1,h2,h3,h4,h5,h6 {
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
-}
-
-img {
-    max-width: 75%;
-}
-
-a {
-    color: var(--primary-color);
-    text-decoration: none;
-}
-
-.lightMode{
-    background-color: var(--bg-color);
-    transition: var(--transition);
-}
-
-
-.dark {
-    --text-color: hsl(0, 0%, 85%);
-    --headings-color: hsl(0, 0%, 76%);
-    --bg-color: hsl(0, 0%, 15%);
-    --bg-card-color: hsl(0, 0%, 20%);
-}
-
-.dark {
+    background-color: var(--primary-color);
     color: var(--text-color);
-    background-color: var(--bg-color);
-    transition: var(--transition);
 }
-
-.color-item--blue {
-    --primary-color: hsl(214, 84%, 56%);
-}
-
- .color-item--green {
-    --primary-color: hsl(150, 84%, 56%);
-
- }
-
- .color-item--purple {
-    --primary-color: hsl(276, 84%, 56%);
-}
-
- .color-item--orange {
-    --primary-color: hsl(46, 82%, 60%);
-}
-
+    
