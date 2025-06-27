@@ -17,7 +17,7 @@
         <div class="project-description-container">
           <h2 class="project__title">{{project.name}}</h2>
           <p class="project__text">
-            {{ $t(project.descriptions) }}
+            {{ $(project.descriptions) }}t
           </p>
         </div>
         <div class="buttons">
@@ -60,7 +60,7 @@ export default {
         })
     },
     getImage(photo){
-      return require(`@/assets/images/${photo}`)
+      return require(`@/assets/images/${photo}`).default;
     }
   },
 
