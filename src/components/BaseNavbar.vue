@@ -5,13 +5,13 @@
         </div>
 
         <nav>
-            <div class="links-external">
+            <div class="links">
                 <a href="https://www.linkedin.com/in/gmartinr/">Linkedin</a>
                 <a href="https://github.com/geminway92">Github</a>
             </div>
             
             
-            <div class="links-views">
+            <div class="links">
                 <RouterLink to="/works">Works</RouterLink>
             </div>
             
@@ -56,12 +56,12 @@
         padding: 0 1rem;
     }
 
-    .links-external {
+    .links {
         display: flex;
         gap: 2rem;
     }
 
-    .links-external a {
+    .links, a {
         padding: 0.5rem 1rem;
         text-decoration: none;
         color: var(--text-color);

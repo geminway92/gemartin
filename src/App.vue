@@ -8,7 +8,7 @@
 </template>
 
 <script>
-    import { defineAsyncComponent } from "vue"
+    import { defineAsyncComponent } from "vue";
     export default {
         name: "App",
         components: {
